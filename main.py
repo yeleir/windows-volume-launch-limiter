@@ -3,13 +3,23 @@ import time
 import psutil
 from pycaw.pycaw import AudioUtilities
 
+WHITELIST = ["spotify.exe", "chrome.exe"]
+
+
+
 
 def fix_volume(pid):
     # 1. get the process name so we can verify what we are looking at
     try:
         p = psutil.Process(pid)
         process_name = p.name().lower()
+
+        # check if process is in whitelist
+        if process_name in WHITELIST:
+            print(f"Skipping {process_name} (Whitelisted)")
+            return
         print(f"Checking audio for: {process_name} (PID: {pid})")
+        
     except (psutil.NoSuchProcess, psutil.AccessDenied):
         # if process closed quickly or is a restricted system process, skip it
         return
