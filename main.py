@@ -24,7 +24,7 @@ def fix_volume(pid):
         # if process closed quickly or is a restricted system process, skip it
         return
 
-    # 2. check 30 times, every 0.1 seconds 
+    # 2. check 30 times, every 0.1 seconds
     for _ in range(30):
         sessions = AudioUtilities.GetAllSessions()
         for session in sessions:
