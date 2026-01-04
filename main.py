@@ -24,7 +24,7 @@ def fix_volume(pid):
         # if process closed quickly or is a restricted system process, skip it
         return
 
-    # 2. check 30 times, every 0.5 seconds (15 seconds total)
+    # 2. check 30 times, every 0.1 seconds 
     for _ in range(30):
         sessions = AudioUtilities.GetAllSessions()
         for session in sessions:
@@ -40,7 +40,7 @@ def fix_volume(pid):
                     return  # exit the function once fixed
 
         # If no audio session found yet, wait and try again
-        time.sleep(0.5)
+        time.sleep(0.1)
 
 
 def main():
