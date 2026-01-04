@@ -22,7 +22,7 @@ Running this script via the command window ensures any applications launched aft
 Currently this version uses 15.2 MB when running. 
 
 ### Screenshots
-![Project Screenshot](vl-screenshot.png)
+![Project Screenshot](images/vl-screenshot.png)
 
 ---
 
