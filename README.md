@@ -21,13 +21,19 @@ Running this script via the command window ensures any applications launched aft
 
 Currently this version uses 15.2 MB when running. 
 
-### Screenshots
-![Project Screenshot](media/images/vl-screenshot.png)
-
 ---
 
+### ⛶ Screenshot
+![Project Screenshot](media/images/vl-screenshot.png)
+
 ### 🎥 Demo
-![Project Demo](media/videos/volume-limiter-demo-video.mp4) 
+<div align="center">
+
+<video src="https://github.com/user-attachments/assets/02c57887-efd1-4e89-8670-304a1e3e5421" width="100%" controls>
+
+Your browser does not support the video tag.
+
+</video></div>
 ---
 
 ## 🛠 Built With
