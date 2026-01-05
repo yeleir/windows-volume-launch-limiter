@@ -22,16 +22,27 @@ Running this script via the command window ensures any applications launched aft
 Currently this version uses 15.2 MB when running. 
 
 ### Screenshots
-![Project Screenshot](images/vl-screenshot.png)
+![Project Screenshot](media/images/vl-screenshot.png)
 
 ---
 
+### 🎥 Demo
+![Project Demo](media/videos/demo.mp4) 
+---
+
 ## 🛠 Built With
-- **Language:** Python 3.x
-- **Libraries:** - 
-[Pycaw](https://github.com/AndreMiras/pycaw) (Core Audio Control) 
-[Comtypes](https://pythonhosted.org/comtypes/) (COM interface)
-- **Tools:** Git, VS Code
+* **Python 3.x** - The core logic
+* **Pycaw** - Interface for Windows Core Audio API
+* **Comtypes** - Used for COM interface handling
+
+---
+
+## 🚀 Roadmap
+- [x] Initial logic for audio session monitoring
+- [x] Automatic volume capping at 10%
+- [ ] **Graphical User Interface (GUI):** Allow users to set their own limit via a slider.
+- [ ] **Standalone Executable:** Package as a `.exe` so users don't need Python installed.
+- [ ] **Tray Icon:** Allow the app to live in the Windows System Tray (next to the clock).
 
 ---
 
@@ -51,7 +62,7 @@ Currently this version uses 15.2 MB when running.
 ### Installation
 1. Clone the repo:
    ```bash
-   git clone [https://github.com/your-username/windows-limiter.git](https://github.com/your-username/windows-limiter.git)
+   git clone [https://github.com/yeleir/windows-limiter.git](https://github.com/your-username/windows-limiter.git)
 
 ### ⚙️ Run on Startup (Optional)
 To ensure your ears are protected every time you boot your PC, you can set the script to run automatically in the background:
