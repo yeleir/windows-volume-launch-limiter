@@ -27,7 +27,7 @@ Currently this version uses 15.2 MB when running.
 ---
 
 ### 🎥 Demo
-![Project Demo](media/videos/demo.mp4) 
+![Project Demo](media/videos/volume-limiter-demo-video.mp4) 
 ---
 
 ## 🛠 Built With
